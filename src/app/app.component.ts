@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'playground';
+  showVehicles: boolean = true;
+  showHouses: boolean = false;
+  
+
+  toggleMenu(){
+    this.showVehicles  = !this.showVehicles;
+    this.showHouses  = !this.showHouses;
+  }
 }

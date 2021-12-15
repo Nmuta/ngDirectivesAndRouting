@@ -1,0 +1,9 @@
+<p>townhomes works!</p>
+
+<button (click)="makeGreen()">make green</button>
+<button (click)="makeRed()">make red</button>
+
+
+<div class="mybox" [style.color]="custom" [ngClass]="{green: isGreen, red: isRed}">
+  this is the box . 
+</div>
